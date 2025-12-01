@@ -15,71 +15,71 @@ Criar uma landing page responsiva utilizando HTML5 e CSS3 com Flexbox, apresenta
 ### 1. Estrutura HTML
 - [X] Criar arquivo `index.html` com estrutura básica HTML5
 - [X] Utilizar tags semânticas (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`)
-- [ ] Adicionar meta tags para responsividade (`viewport`)
-- [ ] Incluir meta tags para SEO (description, keywords)
-- [ ] Vincular arquivo CSS externo
+- [X] Adicionar meta tags para responsividade (`viewport`)
+- [X] Incluir meta tags para SEO (description, keywords)
+- [X] Vincular arquivo CSS externo
 
 ### 2. Cabeçalho (Header)
-- [ ] Criar logo ou título do IFRN
-- [ ] Adicionar menu de navegação
-- [ ] Implementar Flexbox para alinhar elementos do header
-- [ ] Tornar o header fixo ou responsivo
+- [X] Criar logo ou título do IFRN
+- [X] Adicionar menu de navegação
+- [X] Implementar Flexbox para alinhar elementos do header
+- [X] Tornar o header fixo ou responsivo
 
 ### 3. Seção Hero (Principal)
-- [ ] Criar seção de destaque com título principal
-- [ ] Adicionar subtítulo ou descrição breve
-- [ ] Incluir call-to-action (CTA) principal
-- [ ] Aplicar Flexbox para centralizar conteúdo
+- [X] Criar seção de destaque com título principal
+- [X] Adicionar subtítulo ou descrição breve
+- [X] Incluir call-to-action (CTA) principal
+- [X] Aplicar Flexbox para centralizar conteúdo
 
 ### 4. Seção de Oportunidades (Cards)
-- [ ] Pesquisar pelo menos 3-6 oportunidades reais ou fictícias de projetos IFRN
-- [ ] Criar cards para cada oportunidade com:
-  - [ ] Título do projeto/oportunidade
-  - [ ] Área de atuação (Pesquisa/Extensão)
-  - [ ] Breve descrição
-  - [ ] Requisitos básicos
-  - [ ] Link ou botão "Saiba Mais"
-- [ ] Usar Flexbox para layout dos cards
-- [ ] Implementar `flex-wrap` para responsividade
-- [ ] Aplicar criatividade no design dos cards
+- [X] Pesquisar pelo menos 3-6 oportunidades reais ou fictícias de projetos IFRN
+- [ X Criar cards para cada oportunidade com:
+  - [X] Título do projeto/oportunidade
+  - [X] Área de atuação (Pesquisa/Extensão)
+  - [X] Breve descrição
+  - [X] Requisitos básicos
+  - [X] Link ou botão "Saiba Mais"
+- [X] Usar Flexbox para layout dos cards
+- [X] Implementar `flex-wrap` para responsividade
+- [X] Aplicar criatividade no design dos cards
 
 ### 5. CSS com Flexbox
-- [ ] Criar arquivo `oportunidades.css`
-- [ ] Definir reset CSS básico ou usar normalize.css
-- [ ] Implementar variáveis CSS para cores e espaçamentos
-- [ ] Criar classes utilitárias com Flexbox
+- [X] Criar arquivo `oportunidades.css`
+- [X] Definir reset CSS básico ou usar normalize.css
+- [X] Implementar variáveis CSS para cores e espaçamentos
+- [X] Criar classes utilitárias com Flexbox
 
 #### 5.1. Mobile-First (Smartphone - até 768px)
-- [ ] Definir estilos base para mobile
-- [ ] Cards empilhados verticalmente (flex-direction: column)
-- [ ] Menu hambúrguer ou menu vertical
-- [ ] Espaçamentos otimizados para telas pequenas
-- [ ] Textos com tamanhos legíveis
+- [X] Definir estilos base para mobile
+- [X] Cards empilhados verticalmente (flex-direction: column)
+- [X] Menu hambúrguer ou menu vertical
+- [X] Espaçamentos otimizados para telas pequenas
+- [X] Textos com tamanhos legíveis
 
 #### 5.2. Tablet (768px - 1024px)
-- [ ] Criar media query para tablets
-- [ ] Cards em 2 colunas (flex-basis, flex-grow)
-- [ ] Ajustar espaçamentos
-- [ ] Menu horizontal se aplicável
+- [X] Criar media query para tablets
+- [X] Cards em 2 colunas (flex-basis, flex-grow)
+- [X] Ajustar espaçamentos
+- [X] Menu horizontal se aplicável
 
 #### 5.3. Desktop (acima de 1024px)
-- [ ] Criar media query para desktop
-- [ ] Cards em 3 ou mais colunas
-- [ ] Layout ampliado com max-width para container
-- [ ] Hover effects nos cards e botões
+- [X] Criar media query para desktop
+- [X] Cards em 3 ou mais colunas
+- [X] Layout ampliado com max-width para container
+- [X] Hover effects nos cards e botões
 
 ### 6. Estilização Avançada
-- [ ] Definir paleta de cores profissional
-- [ ] Escolher tipografia adequada (Google Fonts recomendado)
-- [ ] Adicionar sombras e bordas nos cards
-- [ ] Implementar transições CSS (transitions/animations)
-- [ ] Adicionar ícones (Font Awesome, Material Icons, etc.)
+- [X] Definir paleta de cores profissional
+- [X] Escolher tipografia adequada (Google Fonts recomendado)
+- [X] Adicionar sombras e bordas nos cards
+- [X] Implementar transições CSS (transitions/animations)
+- [X] Adicionar ícones (Font Awesome, Material Icons, etc.)
 
 ### 7. Footer
-- [ ] Criar rodapé com informações de contato
-- [ ] Links para redes sociais do IFRN
-- [ ] Informações de copyright
-- [ ] Usar Flexbox para organizar elementos
+- [X] Criar rodapé com informações de contato
+- [X] Links para redes sociais do IFRN
+- [X] Informações de copyright
+- [X] Usar Flexbox para organizar elementos
 
 ### 8. Acessibilidade e Boas Práticas
 - [ ] Adicionar atributos `alt` em imagens

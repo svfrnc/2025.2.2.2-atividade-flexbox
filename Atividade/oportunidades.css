@@ -90,24 +90,16 @@ ul {
 }
 
 .logo {
+    /* Removemos configurações de fonte antigas se houver */
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    color: var(--primary-color);
 }
 
-.logo h1 {
-    font-family: var(--font-heading);
-    font-size: 2rem;
-    line-height: 1;
+.logo img {
+    height: 50px; /* Define a altura fixa */
+    width: auto;  /* A largura se ajusta proporcionalmente */
+    display: block; /* Remove espaços extras abaixo da imagem */
 }
-
-.logo-subtitle {
-    font-size: 0.8rem;
-    color: var(--gray);
-    font-weight: bold;
-}
-
 .nav-list {
     display: flex;
     gap: 1rem;
@@ -120,7 +112,7 @@ ul {
 
 /* --- Hero Section --- */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../workspaces/2025.2.2.2-atividade-flexbox/images/fundo-hero-section.jpg'); /* Imagem genérica de tecnologia */
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../workspaces/2025.2.2.2-atividade-flexbox/images/fundo-hero-section.jpg');
     background-size: cover;
     background-position: center;
     color: var(--white);
