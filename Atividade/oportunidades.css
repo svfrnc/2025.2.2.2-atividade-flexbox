@@ -90,7 +90,6 @@ ul {
 }
 
 .logo {
-    /* Removemos configurações de fonte antigas se houver */
     display: flex;
     align-items: center;
 }
