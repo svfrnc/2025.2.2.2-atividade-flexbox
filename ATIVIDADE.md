@@ -13,8 +13,8 @@ Criar uma landing page responsiva utilizando HTML5 e CSS3 com Flexbox, apresenta
 ## ✅ Checklist da Atividade
 
 ### 1. Estrutura HTML
-- [ ] Criar arquivo `index.html` com estrutura básica HTML5
-- [ ] Utilizar tags semânticas (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`)
+- [X] Criar arquivo `index.html` com estrutura básica HTML5
+- [X] Utilizar tags semânticas (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`)
 - [ ] Adicionar meta tags para responsividade (`viewport`)
 - [ ] Incluir meta tags para SEO (description, keywords)
 - [ ] Vincular arquivo CSS externo

@@ -1,0 +1,308 @@
+/* --- Variáveis CSS (Cores do IFRN e Configurações) --- */
+:root {
+    --primary-color: #32A041; /* Verde IFRN */
+    --secondary-color: #CB333B; /* Vermelho IFRN */
+    --text-color: #333333;
+    --bg-light: #f4f4f4;
+    --white: #ffffff;
+    --gray: #666666;
+    --shadow: 0 4px 6px rgba(0,0,0,0.1);
+    --transition: all 0.3s ease;
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Roboto', sans-serif;
+}
+
+/* --- Reset Básico --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-light);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* --- Utilitários --- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: var(--transition);
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background-color: #267a31;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    width: 100%; /* Botão full width no card */
+}
+
+.btn-secondary:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* --- Header (Mobile First: Flexbox) --- */
+.header {
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+    padding: 1rem 0;
+    position: sticky; /* Header fixo */
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column; /* Empilha logo e menu no mobile */
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary-color);
+}
+
+.logo h1 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.logo-subtitle {
+    font-size: 0.8rem;
+    color: var(--gray);
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    font-weight: 500;
+}
+
+.nav-list a:hover {
+    color: var(--primary-color);
+}
+
+/* --- Hero Section --- */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../workspaces/2025.2.2.2-atividade-flexbox/images/fundo-hero-section.jpg'); /* Imagem genérica de tecnologia */
+    background-size: cover;
+    background-position: center;
+    color: var(--white);
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* --- Seção de Oportunidades (Cards) --- */
+.opportunities {
+    padding: 3rem 0;
+}
+
+.section-title {
+    text-align: center;
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.section-description {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--gray);
+}
+
+/* Flexbox Container para Cards */
+.cards-container {
+    display: flex;
+    flex-direction: column; /* Mobile: Um card abaixo do outro */
+    gap: 2rem;
+}
+
+/* Estilo do Card */
+.card {
+    background: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efeito de levitação */
+}
+
+.card-header {
+    padding: 1rem;
+    color: var(--white);
+    text-align: right;
+}
+
+.header-pesquisa { background-color: var(--primary-color); }
+.header-extensao { background-color: var(--secondary-color); }
+
+.card-badge {
+    background: rgba(255,255,255,0.2);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 1.5rem;
+    flex-grow: 1; /* Garante que cards tenham altura igual */
+}
+
+.card-title {
+    font-family: var(--font-heading);
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.card-requirements h4 {
+    margin: 1rem 0 0.5rem;
+    font-size: 0.9rem;
+    color: var(--gray);
+}
+
+.card-requirements ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.card-footer {
+    padding: 1.5rem;
+    background-color: #fafafa;
+    border-top: 1px solid #eee;
+}
+
+/* --- Footer --- */
+.footer {
+    background-color: #222;
+    color: var(--white);
+    padding: 3rem 0 1rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #444;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* =========================================
+   MEDIA QUERIES (Responsividade)
+   ========================================= */
+
+/* Tablet (768px até 1024px) */
+@media (min-width: 768px) {
+    .header-content {
+        flex-direction: row; /* Menu ao lado do logo */
+        justify-content: space-between;
+    }
+
+    .cards-container {
+        flex-direction: row; /* Cards lado a lado */
+        flex-wrap: wrap;
+    }
+
+    .card {
+        /* Cálculo: (100% - gap) / 2 colunas */
+        flex: 1 1 calc(50% - 2rem); 
+    }
+
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+    
+    .social-links {
+        justify-content: flex-start;
+    }
+}
+
+/* Desktop (Acima de 1024px) */
+@media (min-width: 1024px) {
+    .container {
+        padding: 0 2rem;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .card {
+        /* Cálculo: (100% - 2*gap) / 3 colunas */
+        flex: 1 1 calc(33.333% - 2rem);
+    }
+}
