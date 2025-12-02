@@ -33,7 +33,7 @@ Criar uma landing page responsiva utilizando HTML5 e CSS3 com Flexbox, apresenta
 
 ### 4. Seção de Oportunidades (Cards)
 - [X] Pesquisar pelo menos 3-6 oportunidades reais ou fictícias de projetos IFRN
-- [ X Criar cards para cada oportunidade com:
+- [X] Criar cards para cada oportunidade com:
   - [X] Título do projeto/oportunidade
   - [X] Área de atuação (Pesquisa/Extensão)
   - [X] Breve descrição
@@ -91,15 +91,15 @@ Criar uma landing page responsiva utilizando HTML5 e CSS3 com Flexbox, apresenta
 ### 9. Testes e Responsividade
 - [X] Testar em Chrome DevTools (diferentes dispositivos)
 - [X] Verificar em smartphone real
-- [] Testar em tablet (ou simulador)
+- [X] Testar em tablet (ou simulador)
 - [X] Verificar em desktop (diferentes resoluções)
 - [X] Ajustar breakpoints conforme necessário
 
 ### 10. Documentação
-- [ ] Criar arquivo README.md explicando o projeto
-- [ ] Documentar fontes de pesquisa das oportunidades
-- [ ] Listar tecnologias utilizadas
-- [ ] Incluir screenshots ou link para visualização
+- [X] Criar arquivo README.md explicando o projeto
+- [X] Documentar fontes de pesquisa das oportunidades
+- [X] Listar tecnologias utilizadas
+- [X] Incluir screenshots ou link para visualização
 
 ## 📚 Recursos Úteis
 

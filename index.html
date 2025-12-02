@@ -3,175 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Oportunidades de trabalho em projetos de pesquisa e extensão do IFRN">
-    <meta name="keywords" content="IFRN, pesquisa, extensão, oportunidades, trabalho, projetos">
-    <title>Oportunidades IFRN - Pesquisa e Extensão</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="Encontre oportunidades de bolsas de pesquisa e extensão no IFRN para alunos de tecnologia e sistemas.">
+    <meta name="keywords" content="IFRN, sistemas, programação, python, pesquisa, extensão, oportunidades">
+    <link rel="stylesheet" href="css/oportunidades.css">
+    
+    <title>Oportunidades IFRN - Tecnologia e Sistemas</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    
 </head>
 <body>
-    <!-- Header -->
     <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <h1>IFRN</h1>
-                    <span class="logo-subtitle">Oportunidades</span>
-                </div>
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li><a href="#inicio">Início</a></li>
-                        <li><a href="#oportunidades">Oportunidades</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                    </ul>
-                </nav>
+        <div class="container header-content">
+            <div class="logo">
+               <a href="#inicio">
+                <img src="/images/logo-ifrn2.png" alt="Logo do IFRN">
+             </a>
             </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#oportunidades">Vagas</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero" id="inicio">
-        <div class="container">
-            <div class="hero-content">
-                <h2 class="hero-title">Construa seu Futuro com o IFRN</h2>
-                <p class="hero-subtitle">Descubra oportunidades em projetos de pesquisa e extensão</p>
-                <a href="#oportunidades" class="btn btn-primary">Explorar Oportunidades</a>
-            </div>
+        <div class="container hero-content">
+            <h2 class="hero-title">Evolua seus conhecimentos em TI</h2>
+            <p class="hero-subtitle">Inscreva-se e participe de projetos de Pesquisa e Extensão focados em desenvolvimento, dados e inovação.</p>
+            <a href="#oportunidades" class="btn btn-primary">Ver Projetos</a>
         </div>
     </section>
 
-    <!-- Main Content - Opportunities Section -->
     <main class="main">
         <section class="opportunities" id="oportunidades">
             <div class="container">
                 <h2 class="section-title">Oportunidades Disponíveis</h2>
-                <p class="section-description">Explore projetos de pesquisa e extensão nas diversas áreas do conhecimento</p>
+                <p class="section-description">Encontre abaixo o projeto que mais se alinha com seu perfil de desenvolvedor.</p>
 
                 <div class="cards-container">
-                    <!-- Card 1 - Exemplo -->
+                    
                     <article class="card">
-                        <div class="card-header">
-                            <span class="card-badge badge-pesquisa">Pesquisa</span>
+                        <div class="card-header header-pesquisa">
+                            <span class="card-badge"><i class="fa-solid fa-flask"></i> Pesquisa</span>
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">Desenvolvimento de Aplicações Web</h3>
+                            <h3 class="card-title">Full Stack Web Dev</h3>
                             <p class="card-description">
-                                Projeto de pesquisa focado no desenvolvimento de sistemas web modernos
-                                utilizando tecnologias atuais e metodologias ágeis.
+                                Criação de plataforma acadêmica utilizando React e Node.js. Foco em arquitetura de microsserviços.
                             </p>
                             <div class="card-requirements">
-                                <h4>Requisitos:</h4>
+                                <h4><i class="fa-solid fa-list-check"></i> Requisitos:</h4>
                                 <ul>
-                                    <li>Cursando Informática ou áreas afins</li>
-                                    <li>Conhecimento em HTML, CSS e JavaScript</li>
-                                    <li>Disponibilidade de 20h semanais</li>
+                                    <li>Lógica de Programação</li>
+                                    <li>HTML5, CSS3 e JS Moderno</li>
+                                    <li>20h semanais</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="card-footer">
-                            <a href="#" class="btn btn-secondary">Saiba Mais</a>
+                            <a href="#" class="btn btn-secondary">Detalhes</a>
                         </div>
                     </article>
 
-                    <!-- Card 2 - Exemplo -->
                     <article class="card">
-                        <div class="card-header">
-                            <span class="card-badge badge-extensao">Extensão</span>
+                        <div class="card-header header-extensao">
+                            <span class="card-badge"><i class="fa-solid fa-users"></i> Extensão</span>
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">Inclusão Digital na Comunidade</h3>
+                            <h3 class="card-title">Letramento Digital</h3>
                             <p class="card-description">
-                                Projeto de extensão voltado para levar conhecimentos de informática básica
-                                e cidadania digital para comunidades carentes.
+                                Capacitação em ferramentas digitais para pequenos empreendedores locais da região.
                             </p>
                             <div class="card-requirements">
-                                <h4>Requisitos:</h4>
+                                <h4><i class="fa-solid fa-list-check"></i> Requisitos:</h4>
                                 <ul>
-                                    <li>Habilidades de comunicação</li>
-                                    <li>Conhecimento básico em informática</li>
-                                    <li>Disponibilidade para atividades externas</li>
+                                    <li>Boa comunicação</li>
+                                    <li>Pacote Office/LibreOffice</li>
+                                    <li>Disponibilidade à tarde</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="card-footer">
-                            <a href="#" class="btn btn-secondary">Saiba Mais</a>
+                            <a href="#" class="btn btn-secondary">Detalhes</a>
                         </div>
                     </article>
 
-                    <!-- Card 3 - Exemplo -->
                     <article class="card">
-                        <div class="card-header">
-                            <span class="card-badge badge-pesquisa">Pesquisa</span>
+                        <div class="card-header header-pesquisa">
+                            <span class="card-badge"><i class="fa-solid fa-brain"></i> Pesquisa</span>
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">Inteligência Artificial e Machine Learning</h3>
+                            <h3 class="card-title">Data Science & AI</h3>
                             <p class="card-description">
-                                Pesquisa em algoritmos de aprendizado de máquina aplicados a problemas
-                                reais da região.
+                                Análise de dados educacionais utilizando Python e bibliotecas como Pandas e Scikit-learn.
                             </p>
                             <div class="card-requirements">
-                                <h4>Requisitos:</h4>
+                                <h4><i class="fa-solid fa-list-check"></i> Requisitos:</h4>
                                 <ul>
-                                    <li>Conhecimento em Python</li>
-                                    <li>Noções de estatística</li>
-                                    <li>Interesse em IA e dados</li>
+                                    <li>Python Intermediário</li>
+                                    <li>Noções de Estatística</li>
+                                    <li>Gosto por matemática</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="card-footer">
-                            <a href="#" class="btn btn-secondary">Saiba Mais</a>
+                            <a href="#" class="btn btn-secondary">Detalhes</a>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-header header-pesquisa">
+                            <span class="card-badge"><i class="fa-solid fa-gamepad"></i> Pesquisa</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Jogos Educativos</h3>
+                            <p class="card-description">
+                                Desenvolvimento de jogos sérios (serious games) para auxílio no ensino de matemática básica.
+                            </p>
+                            <div class="card-requirements">
+                                <h4><i class="fa-solid fa-list-check"></i> Requisitos:</h4>
+                                <ul>
+                                    <li>Lógica de Programação</li>
+                                    <li>Interesse em Game Design</li>
+                                    <li>Godot ou Unity</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-secondary">Detalhes</a>
                         </div>
                     </article>
 
-                    <!-- Adicione mais cards aqui conforme sua pesquisa -->
+                    <article class="card">
+                        <div class="card-header header-extensao">
+                            <span class="card-badge"><i class="fa-solid fa-network-wired"></i> Extensão</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Suporte e Redes</h3>
+                            <p class="card-description">
+                                Projeto de manutenção de laboratórios e estruturação de redes lógicas do campus.
+                            </p>
+                            <div class="card-requirements">
+                                <h4><i class="fa-solid fa-list-check"></i> Requisitos:</h4>
+                                <ul>
+                                    <li>Hardware de computadores</li>
+                                    <li>Noções de Redes (TCP/IP)</li>
+                                    <li>Proatividade</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-secondary">Detalhes</a>
+                        </div>
+                    </article>
+
                 </div>
             </div>
         </section>
 
-        <!-- About Section -->
         <section class="about" id="sobre">
             <div class="container">
                 <h2 class="section-title">Sobre o IFRN</h2>
                 <div class="about-content">
                     <p>
-                        O Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte (IFRN)
-                        é uma instituição de ensino público que oferece diversos cursos técnicos, graduações
-                        e pós-graduações.
-                    </p>
-                    <p>
-                        Os projetos de pesquisa e extensão são fundamentais para a formação dos estudantes,
-                        proporcionando experiência prática e contribuindo para o desenvolvimento da sociedade.
+                        O Instituto Federal do Rio Grande do Norte é referência em ensino técnico e tecnológico, atuando 
+                        como polo de desenvolvimento socioeconômico no estado do Rio Grande do Norte. Ao democratizar o acesso à tecnologia e à ciência, o instituto 
+                        capacita a força de trabalho do estado, atrai indústrias que buscam mão de obra qualificada e promove 
+                        a inclusão social através da educação pública e gratuita.
                     </p>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
     <footer class="footer" id="contato">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>IFRN</h3>
-                    <p>Instituto Federal do Rio Grande do Norte</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Links Úteis</h3>
-                    <ul>
-                        <li><a href="https://portal.ifrn.edu.br/" target="_blank">Portal IFRN</a></li>
-                        <li><a href="https://portal.ifrn.edu.br/pesquisa" target="_blank">Pesquisa</a></li>
-                        <li><a href="https://portal.ifrn.edu.br/extensao" target="_blank">Extensão</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Contato</h3>
-                    <p>Email: contato@ifrn.edu.br</p>
-                    <p>Telefone: (84) 4005-0000</p>
+        <div class="container footer-container">
+            <div class="footer-section">
+                <h3>IFRN Campus</h3>
+                <p>Formando profissionais para o futuro.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/ifrnoficial/" target="_blank"><i class="fa-brands fa-instagram"></i> </a>
+                    <a href="https://www.linkedin.com/school/ifrn/posts/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/tads-webdesign" target="_blank"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 IFRN. Todos os direitos reservados.</p>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p><i class="fa-solid fa-envelope"></i> coord.sistemas@ifrn.edu.br</p>
             </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 IFRN. Desenvolvido para fins acadêmicos.</p>
         </div>
     </footer>
 </body>

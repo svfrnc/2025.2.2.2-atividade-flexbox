@@ -1,4 +1,3 @@
-/* --- Variáveis CSS (Cores do IFRN e Configurações) --- */
 :root {
     --primary-color: #32A041; /* Verde IFRN */
     --secondary-color: #CB333B; /* Vermelho IFRN */
@@ -12,7 +11,6 @@
     --font-body: 'Roboto', sans-serif;
 }
 
-/* --- Reset Básico --- */
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +33,6 @@ ul {
     list-style: none;
 }
 
-/* --- Utilitários --- */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -72,19 +69,19 @@ ul {
     color: var(--white);
 }
 
-/* --- Header (Mobile First: Flexbox) --- */
+/* --- Header (Flexbox do Mobile) --- */
 .header {
     background-color: var(--white);
     box-shadow: var(--shadow);
     padding: 1rem 0;
-    position: sticky; /* Header fixo */
+    position: sticky;
     top: 0;
     z-index: 1000;
 }
 
 .header-content {
     display: flex;
-    flex-direction: column; /* Empilha logo e menu no mobile */
+    flex-direction: column; /* Empilhar logo e menu no mobile */
     align-items: center;
     gap: 1rem;
 }
@@ -95,9 +92,9 @@ ul {
 }
 
 .logo img {
-    height: 50px; /* Define a altura fixa */
-    width: auto;  /* A largura se ajusta proporcionalmente */
-    display: block; /* Remove espaços extras abaixo da imagem */
+    height: 50px;
+    width: auto;  /* A largura ajustando proporcionalmente */
+    display: block; /* Remover espaços extras abaixo da imagem */
 }
 .nav-list {
     display: flex;
@@ -125,7 +122,7 @@ ul {
     margin-bottom: 1rem;
 }
 
-/* --- Seção de Oportunidades (Cards) --- */
+/* --- Cards --- */
 .opportunities {
     padding: 3rem 0;
 }
